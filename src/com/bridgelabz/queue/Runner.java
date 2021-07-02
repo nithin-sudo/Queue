@@ -7,5 +7,8 @@ public class Runner {
         myQueue.enQueue(30);
         myQueue.enQueue(70);
         myQueue.printQueue();
+        myQueue.deQueue();
+        myQueue.printQueue();
+
     }
 }

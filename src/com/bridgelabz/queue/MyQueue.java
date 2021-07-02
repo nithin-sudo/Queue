@@ -22,6 +22,11 @@ public class MyQueue <T>{
             tail=newNode;
         }
     }
+    public void deQueue(){
+        Node tempNode = head;
+        head = head.next;
+        System.out.println("dequeued element is: "+tempNode.data);
+    }
     /**
      * printing the queue elements.
      */
