@@ -1,8 +1,8 @@
 package com.bridgelabz.queue;
 
-public class MyQueue {
-    Node head;
-    Node tail;
+public class MyQueue <T>{
+    Node <T>head;
+    Node <T>tail;
     /**
      * insertring the elements in the queue
      * @param data
